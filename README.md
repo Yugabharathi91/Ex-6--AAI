@@ -1,7 +1,4 @@
-<H3>NAME : SANJAY S</H3>
-<H3>REG NO : 212222230132</H3>
-<H3>EX-NO : 6</H3>
-<H3>DATE : 5/5/2024</H3>
+
 <H1 ALIGN =CENTER>Implementation of Semantic Analysis</H1>
 
  ### Aim: 
