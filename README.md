@@ -1,6 +1,8 @@
 
-<H1 ALIGN =CENTER>Implementation of Semantic Analysis</H1>
 
+ ### NAME:YUGABHARATHI M
+ ### REGISTER NO:212224230314
+ ### DATE :
  ### Aim: 
  To perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques. 
  <BR>
